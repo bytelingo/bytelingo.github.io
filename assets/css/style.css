@@ -1,0 +1,132 @@
+.container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#home-menu {
+    margin-bottom: 20px;
+}
+#home-menu-thumbnails a img {
+    width: 90%;
+}
+#home-menu-thumbnails div {
+    text-align: center;
+}
+#banner ul {
+    list-style: padding:0;
+    margin: 0;
+    padding: 0;
+}
+
+#banner ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#owl-demo {
+    margin-top: 50px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-buttons {
+    display: none;
+}
+
+.slide-1 {
+    background: url("../img/home_slides/slide1.jpg") 50% 50% no-repeat #FFF;
+}
+.slide-2 {
+    background: url("../img/home_slides/slide2.jpg") 50% 50% no-repeat #FFF;
+}
+.slide-3 {
+    background: url("../img/home_slides/slide3.jpg") 50% 50% no-repeat #FFF;
+}
+.slide-4 {
+    background: url("../img/home_slides/slide4.jpg") 50% 50% no-repeat #FFF;
+}
+
+.slide-img {
+    height: 500px;
+    background-size: cover;
+}
+
+li.social-link a {
+  padding: 0 2px;
+}
+
+li.social-link {
+  font-size: 1.7rem;
+}
+
+footer {
+    background-color: #2A2A2A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+footer a, footer p {
+    color: #C8C8C8;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+footer li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+@media (max-width: 375px) {
+    .slide-img {
+      height: 300px;
+      background-size: cover;
+    }
+}
+
+
+@media (min-width: 992px) {
+    footer .col-md-3:first-child ul {
+      right: 0;
+      position: absolute;
+    }
+    footer .col-md-3:nth-child(2) ul,
+    footer .col-md-3:nth-child(3) ul {
+      border-left: 1px solid #C8C8C8;
+      padding-left: 20px;
+      margin-left: 20px;
+    }
+    footer .col-md-3:last-child ul {
+      border-left: 1px solid #C8C8C8;
+      margin-left: 0;
+      padding-left: 20px;
+    }
+}
+
+@media (min-width: 643px) and (max-width: 991px) {
+    footer .row {
+      position: relative;        
+    }
+    footer .col-sm-6:nth-child(3) {
+      position: absolute;
+      top: 0;
+      left: 60%;
+      max-width: 300px;
+    }
+    footer .col-sm-6:last-child {
+      position: absolute;
+      bottom: 0;
+      left: 60%;
+      max-width: 300px;
+    }
+    footer .col-sm-6:nth-child(3) ul,
+    footer .col-sm-6:last-child ul {
+      padding-left: 0;
+    }
+}
+
