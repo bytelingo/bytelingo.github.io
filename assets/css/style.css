@@ -82,10 +82,17 @@ footer li {
     margin: 5px 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px), (max-width: 736px) and (orientation: landscape) {
     .slide-img {
       height: 300px;
       background-size: cover;
+    }
+    #main-nav {
+      position: relative;
+      margin-bottom: 0;
+    }
+    #owl-demo {
+      margin-top: 0;
     }
 }
 
